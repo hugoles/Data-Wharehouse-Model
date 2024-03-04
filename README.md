@@ -1,5 +1,5 @@
 # Data-Wharehouse-Model
-Conceptual Model of a Data Warehouse Application in a Bus Paycheck Contex
+Conceptual Model of a Data Warehouse Application in a "Uber" Rides Context
 
 # Delimiters
 The database should include drivers, identified by their CPFs, RGs, addresses, date of birth, driver's license numbers, and bank account information for payment, as well as passengers, identified by their CPFs, RGs, addresses, date of birth, and credit card numbers. In addition to them, attendants should be registered, identified by their CPFs, RGs, addresses, date of birth, and educational background. Drivers and attendants can use transportation services as passengers. An attendant can also be a driver during idle hours. One or more vehicles are associated with a driver, where each vehicle should be identified by its RENAVAM number, purchase date, brand, model, year, price, and characteristic, which should be one of {economic, SUV, luxury, rural}.
